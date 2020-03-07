@@ -1,0 +1,235 @@
+
+
+/*body: cuerpo de la página*/
+body { 
+       width: 100%;
+       background-color: #f1efef;
+       display: inline-block;
+}
+
+/*cabecera*/
+header { 
+        background-color:  #666; 
+        border-radius: 12px;
+}
+
+header h1 { text-align: center; 
+            color: rgb(194, 7, 201); 
+            padding: 0.5em; 
+            font-size: 3.5em; 
+}
+
+header h2 { 
+            text-align: center; 
+            color: #44b37f; 
+            padding: 0.5em; 
+            font-size: 2.2em; 
+}
+header {
+    background-image: url('images/1.jpg');
+    width: 100%;
+    height: auto;
+  }
+
+/*navegador*/
+nav { 
+        background-color: #005853; 
+        min-height: 1em;
+        border-radius: 12px;
+        font-size: 35px;
+        text-align: center;
+        padding: 20px;
+        color: white;
+}
+
+nav a:link, nav a:visited { 
+    text-decoration: none; 
+    color: #fffffd;
+    margin: 0.3em; 
+}
+
+/*principal: section:*/
+section { 
+    width: 60%; 
+    background-color: rgba(167, 95, 125, 0.568); 
+    float: left; 
+    border-radius: 12px;
+}
+.section2{
+    background-color: rgba(253, 78, 151, 0.568); 
+    float: left; 
+    border-radius: 12px;
+}
+section h1 { 
+    text-align: center; 
+    padding: 0.5em; 
+    color: rgb(42, 0, 97); 
+    font-size: 1.4em; 
+}
+
+section h2 { 
+    text-align: center; 
+    padding: 0.5em; 
+    color: rgb(165, 70, 157); 
+    font-size: 1.2em; 
+}
+
+section h3 { 
+    text-align: justify;  
+    color: #2faa6d;
+    font-size: 2em; 
+}
+
+/*artículos: article*/
+article {
+     margin: 0.5em 3em; 
+     padding: 0.5em 2em;
+     background-color: white;
+     border: 2px double #005853;
+     border-radius: 12px;
+}
+
+article p {
+     text-align: justify; 
+}
+.responsive {
+    width: 70%;
+    height: auto;
+    border-radius: 12px;
+    float: left;
+  }
+
+/*propaganda: aside*/
+aside { 
+    width: 37%; 
+    border-radius: 12px;
+    /*display: inline-block;*/
+    border: 1px solid lightgrey;
+    float: right;
+}
+
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  .btn1 {
+    background-color: rgb(221, 37, 37);
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  .btn:hover {
+    background-color: #45a049;
+  }
+  .btn1:hover {
+    background-color: #be3e3e;
+  }
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  
+  span.price {
+    float: right;
+    color: rgb(255, 203, 125);
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /*fin formulario*/
+  
+#anuncio1 {
+      margin: 20px;
+      padding: 10px; 
+      border: 1px solid rgb(111, 111, 172); 
+      border-radius: 12px;
+      background-color: white;
+      font-size: 1em; 
+}
+
+#anuncio1 h1 { 
+    font-size: 1.1em; 
+    text-align: left; 
+    padding: 0.2em 0em;
+ }
+
+#anuncio1 h2 { 
+    font-size: 1.5em;
+     text-align: center; 
+     padding: 0.5em 0em;
+}
+
+#anuncio1 p { 
+    font-size: 0.9em; 
+    padding: 0.2em 1em;
+ 
+}
+
+/*pie de página: footer*/
+footer { 
+    clear: both; 
+    background-color: #0d0f0f;
+    border-radius: 12px;
+ }
+
+footer h1 { 
+    text-align: center;
+     font-size: 1.4em; 
+     color: rgb(243, 243, 243); 
+     padding: 0.7em; 
+}
+
+footer h2 { 
+    text-align: center;
+     font-size: 1em; 
+     padding: 0.4em; 
+     color: rgb(243, 243, 243);
+}
+
+footer a { 
+    text-decoration: none; 
+    color: rgb(61, 135, 185);
+}
